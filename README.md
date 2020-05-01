@@ -7,7 +7,7 @@
 
 ### 2. Fork한 자신의 원격저장소를 자신의 로컬 저장소에 clone 한다.   
 ```
-git clone https://github.com/mycogno/os_peertutoring.git
+git clone https://github.com/[github_username]/os_peertutoring.git
 ```
 
 ### 3. 실습한 파일을 로컬 저장소에 추가한다.   
