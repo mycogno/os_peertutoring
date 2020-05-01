@@ -15,7 +15,7 @@ git clone https://github.com/[github_username]/os_peertutoring.git
 
 ### 4. 변경 사항을 add, commit한다.
 
-* git을 처음 설치했을 때 사용자 등록 먼저 필요
+**% git을 처음 설치했을 때 사용자 등록 먼저 필요 %**
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
