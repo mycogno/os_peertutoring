@@ -1,4 +1,16 @@
-# os_peertutoring
+# 운영체제론 또래튜터링
+
+## Member list
+|Name|E-mail|ID|
+|------|---|---|
+|장동건|jdg4661@gmail.com|DG|
+|강태연|kang8028@hanyang.ac.kr|TY|
+|이지호|jeeho999@naver.com|JH|
+
+## 규칙
+* 작성한 코드를 디렉토리에 포함해 업로드할 것
+* 개인이 작성한 코드는 반드시 **디렉토리명_ID** 형식의 디렉토리에 포함 ex) bdlist_DG
+* 함께 작업한 코드는 **디렉토리명_TEAM** 형식의 디렉토리에 포함
 
 ## How to upload?
 
@@ -21,16 +33,18 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-* 업로드 할 파일을 각각 선택하고 싶은 경우
+* 업로드 할 파일이나 폴더를 각각 선택
 ```
-git add file_name
+git add file_folder_name
 git commit -m "commit message"
 ```
 
-* 모든 변경사항을 반영하고 싶은 경우
+* 삭제하고 싶을 때는..
 ```
-git commit -a -m "commit message"
+git rm -r file_folder_name
+git commit -m "remove something"
 ```
+
 
 ### 5. 자신의 로컬 저장소에 push한다.
 ```
